@@ -1,0 +1,171 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	list-style: none;
+}
+
+body{
+	background-image: url("https://e0.pxfuel.com/wallpapers/11/192/desktop-wallpaper-pastel-color-background-colorful-pastel.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.container{
+	width: 60%;
+	padding-top: 50px;	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+h1{
+	color: #303030;
+	font-size: 35px;
+	font-weight: 600;
+	justify-content: center;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #303030;
+}
+
+
+ul{
+	display: flex;
+	flex-direction: column-reverse;
+	margin-bottom: 20px;
+}
+
+.menu{
+	padding: 10px;
+	background-color: #eae1fc;
+	border-radius: 10px;
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 6px 5px 10px 0px rgb(172, 172, 172);
+
+}
+
+.tarefaInput{
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	outline: none;
+	width: 90%;
+}
+
+
+.btnAdiciona{
+	width:30px;
+	height: 30px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	font-size: 15px;
+	background-color: blueviolet;
+	border-radius: 50%;
+	color: #fff;
+	margin-left: 8px;
+
+}
+
+.lista{
+	width: 90%;
+}
+
+.containerLi{
+	width: 100%;
+	margin-top: 20px;
+	padding: 10px;
+	background-color:  #eae1fc;
+	border-radius: 10px;
+	box-shadow: 6px 5px 10px 0px rgb(172, 172, 172);
+	display: flex;
+	align-items: center;
+}
+
+.containerLi input{
+	width: 30px;
+	margin: 8px;
+	outline: none;
+	accent-color: currentcolor;
+}
+
+.containerLi span{
+	text-align: left;
+	color: #303030;
+	flex: 1; /* Ocupa todo o espaço restante disponível */
+  	margin-left: 10px; /* Adiciona um espaçamento à esquerda do span */
+  	overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse os limites do span */
+ 	word-wrap: break-word; /* Permite que as palavras quebrem em linhas conforme necessário */
+}
+
+
+.containerLi button{
+	margin-left: 10px;
+	width: 30px;
+	border: none;
+	cursor: pointer;
+	outline: none;
+	background: transparent;
+}
+.containerLi i{
+	font-size: 18px;
+	color: rgb(183, 11, 11);
+}
+ 
+li{
+	list-style: none;
+}
+
+.riscaTexto{
+	text-decoration: line-through;
+}
+
+.btnDelete{
+	border: none;
+	cursor: pointer;
+	outline: none;
+	background-color: rgb(237, 197, 235);
+	width: 250px;
+	padding: 8px;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+	color: #303030;
+}
+
+.btnDelete i{
+	margin-right: 10px;
+	font-size: 18px;
+	color: #303030;
+
+}
+
+
+@media (max-width: 1000px){
+	body{
+		background-attachment: fixed;
+	
+	}
+
+	
+	.container{
+		width: 100%; 
+	}
+	  
+	
+}
